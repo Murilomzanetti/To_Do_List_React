@@ -44,28 +44,35 @@ O projeto foi escalado para atingir a menção máxima (**MB**), resolvendo os d
 ```bash
 git clone https://github.com/Murilomzanetti/To_Do_List_React.git
 cd To_Do_List_React
+```
 2. Configurar o Back-end
-Bash
 # Entrar na pasta do backend
+```bash
 cd backend-tarefas
-
+```
 # Instalar dependências (CORS, etc)
+```bash
 npm install
-
+```
 # Iniciar o servidor
+```bash
 node src/app.js
+```
 O servidor estará a correr em: http://localhost:3000
 
 3. Configurar o Front-end
 Abra um novo terminal e execute:
 
-Bash
 # Entrar na pasta do frontend
+```bash
 cd frontend-react
-
+```
 # Instalar dependências do React
+```bash
 npm install
-
+```
 # Iniciar a aplicação
+```bash
 npm run dev
+```
 Aceda ao link indicado no terminal (ex: http://localhost:5173).
