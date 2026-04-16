@@ -50,10 +50,6 @@ cd To_Do_List_React
 ```bash
 cd backend-tarefas
 ```
-# Instalar dependências (CORS, etc)
-```bash
-npm install
-```
 # Iniciar o servidor
 ```bash
 node src/app.js
@@ -65,7 +61,7 @@ Abra um novo terminal e execute:
 
 # Entrar na pasta do frontend
 ```bash
-cd frontend-react
+cd minha-lista-tarefas
 ```
 # Instalar dependências do React
 ```bash
