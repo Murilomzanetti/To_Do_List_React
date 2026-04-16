@@ -91,3 +91,39 @@ li button {
 li button:hover {
   background-color: #ff3333;
 }
+
+li.concluida span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* Organização dos botões de ordenação (Desafio 4) */
+.sort-buttons {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.sort-buttons button {
+  background-color: #f0f0f0;
+  color: #333;
+  font-size: 12px;
+  padding: 5px 10px;
+}
+
+.sort-buttons button:hover {
+  background-color: #ddd;
+}
+
+/* Garante que o span ocupe o espaço e seja clicável */
+li span {
+  flex: 1;
+  text-align: left;
+  cursor: pointer;
+}
+
+.btn-remove {
+  background-color: #ff4d4d;
+  margin-left: 10px;
+}
